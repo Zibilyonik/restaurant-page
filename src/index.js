@@ -7,5 +7,7 @@ for(let i = 0; i < list.length; i++){
   const temp = list[i]+"btn";
   console.log(temp)
 }
-
+createContact();
+createHome();
+createMenu();
 console.log("Bonk!")
