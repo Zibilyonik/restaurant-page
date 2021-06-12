@@ -4,20 +4,33 @@ import createContact from "./contact.js";
 
 const list = ["home", "menu", "contact"];
 const content = document.querySelector('#Content');
-
+createHome();
 for(let i = 0; i < list.length; i++){
-  const temp = list[i]+"btn";
+  const temp = "btn"+list[i];
   console.log(temp)
 }
-createContact();
-createHome();
-createMenu();
-console.log("Bonk!")
 
 const btncontainer = document.createElement('div');
-btncontainer.classList.add('btngroup', 'row');
-const btnread = document.createElement('button');
-btnread.classList.add('btn', 'btn-primary', 'col-3', 'mx-auto', 'btnread');
-btnread.innerHTML = 'Home';
-btncontainer.appendChild(btnread);
+btncontainer.classList.add('btngroup', 'row', 'mx-5', 'mt-5');
+const btnhome = document.createElement('button');
+btnhome.classList.add('btn', 'btn-primary', 'col', 'mx-1', 'btnread');
+btnhome.innerHTML = 'Home';
+const btnmenu = document.createElement('button');
+btnmenu.classList.add('btn', 'btn-primary', 'col', 'mx-1', 'btnread');
+btnmenu.innerHTML = 'Menu';
+const btncontact = document.createElement('button');
+btncontact.classList.add('btn', 'btn-primary', 'col', 'mx-1', 'btnread');
+btncontact.innerHTML = 'Contact Us';
+btncontainer.appendChild(btnhome);
+btncontainer.appendChild(btnmenu);
+btncontainer.appendChild(btncontact);
 content.appendChild(btncontainer);
+btnhome.addEventListener('click', () => {
+  createHome();
+});
+btnmenu.addEventListener('click', () => {
+  createMenu();
+});
+btncontact.addEventListener('click', () => {
+  createContact();
+});
