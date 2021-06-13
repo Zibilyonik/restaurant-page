@@ -1,14 +1,8 @@
-import createHome from "./home.js";
-import createMenu from "./menu.js";
-import createContact from "./contact.js";
+import createHome from './home';
+import createMenu from './menu';
+import createContact from './contact';
 
-const list = ["home", "menu", "contact"];
 const content = document.querySelector('#Content');
-for(let i = 0; i < list.length; i++){
-  const temp = "btn"+list[i];
-  console.log(temp)
-}
-
 const btncontainer = document.createElement('div');
 btncontainer.classList.add('btngroup', 'row', 'mx-5', 'my-5');
 const btnhome = document.createElement('button');
@@ -26,17 +20,17 @@ btncontainer.appendChild(btncontact);
 content.appendChild(btncontainer);
 createHome();
 btnhome.addEventListener('click', () => {
-  const module_page = document.querySelector('.container')
-  content.removeChild(module_page);
+  const ModulePage = document.querySelector('.container');
+  content.removeChild(ModulePage);
   createHome();
 });
 btnmenu.addEventListener('click', () => {
-  const module_page = document.querySelector('.container')
-  content.removeChild(module_page);
+  const ModulePage = document.querySelector('.container');
+  content.removeChild(ModulePage);
   createMenu();
 });
 btncontact.addEventListener('click', () => {
-  const module_page = document.querySelector('.container')
-  content.removeChild(module_page);
+  const ModulePage = document.querySelector('.container');
+  content.removeChild(ModulePage);
   createContact();
 });

@@ -4,7 +4,7 @@ function createMenu() {
   container.classList.add('menu-container', 'container', 'border', 'rounded', 'text-center');
   const temp = document.createElement('h2');
   temp.classList.add('h2', 'title');
-  temp.innerHTML = `Bonanza's Special Menu`;
+  temp.innerHTML = 'Bonanza\'s Special Menu';
   container.appendChild(temp);
   main.appendChild(container);
 }

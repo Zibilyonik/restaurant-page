@@ -4,7 +4,7 @@ function createHome() {
   container.classList.add('home-container', 'container', 'border', 'rounded', 'text-center');
   const temp = document.createElement('h2');
   temp.classList.add('h2', 'title');
-  temp.innerHTML = `Bonanza's Banana Emporium`;
+  temp.innerHTML = 'Bonanza\'s Banana Emporium';
   container.appendChild(temp);
   main.appendChild(container);
 }
