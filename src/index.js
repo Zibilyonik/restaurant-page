@@ -4,14 +4,13 @@ import createContact from "./contact.js";
 
 const list = ["home", "menu", "contact"];
 const content = document.querySelector('#Content');
-createHome();
 for(let i = 0; i < list.length; i++){
   const temp = "btn"+list[i];
   console.log(temp)
 }
 
 const btncontainer = document.createElement('div');
-btncontainer.classList.add('btngroup', 'row', 'mx-5', 'mt-5');
+btncontainer.classList.add('btngroup', 'row', 'mx-5', 'my-5');
 const btnhome = document.createElement('button');
 btnhome.classList.add('btn', 'btn-primary', 'col', 'mx-1', 'btnread');
 btnhome.innerHTML = 'Home';
@@ -25,12 +24,19 @@ btncontainer.appendChild(btnhome);
 btncontainer.appendChild(btnmenu);
 btncontainer.appendChild(btncontact);
 content.appendChild(btncontainer);
+createHome();
 btnhome.addEventListener('click', () => {
+  const module_page = document.querySelector('.container')
+  content.removeChild(module_page);
   createHome();
 });
 btnmenu.addEventListener('click', () => {
+  const module_page = document.querySelector('.container')
+  content.removeChild(module_page);
   createMenu();
 });
 btncontact.addEventListener('click', () => {
+  const module_page = document.querySelector('.container')
+  content.removeChild(module_page);
   createContact();
 });
