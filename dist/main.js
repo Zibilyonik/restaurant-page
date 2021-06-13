@@ -16,7 +16,7 @@
   \************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction createContact() {\n  const main = document.querySelector('#Content');\n  const container = document.createElement('div');\n  container.classList.add('home-container', 'container');\n  let temp = document.createElement('h2');\n  temp.classList.add('h2', 'title');\n  temp.innerHTML = `Get In Contact With Mr. Bonanza!`;\n  container.appendChild(temp);\n  main.appendChild(container);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createContact);\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction createContact() {\n  const main = document.querySelector('#Content');\n  const container = document.createElement('div');\n  container.classList.add('contact-container', 'container', 'border', 'rounded', 'text-center');\n  let temp = document.createElement('h2');\n  temp.classList.add('h2', 'title');\n  temp.innerHTML = `Get In Contact With Mr. Bonanza!`;\n  container.appendChild(temp);\n  main.appendChild(container);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createContact);\n\n//# sourceURL=webpack://restaurant-page/./src/contact.js?");
 
 /***/ }),
 
@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction createHome() {\n  const main = document.querySelector('#Content');\n  const container = document.createElement('div');\n  container.classList.add('home-container', 'container');\n  let temp = document.createElement('h2');\n  temp.classList.add('h2', 'title');\n  temp.innerHTML = `Bonanza's Banana Emporium`;\n  container.appendChild(temp);\n  main.appendChild(container);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createHome);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction createHome() {\n  const main = document.querySelector('#Content');\n  const container = document.createElement('div');\n  container.classList.add('home-container', 'container', 'border', 'rounded', 'text-center');\n  let temp = document.createElement('h2');\n  temp.classList.add('h2', 'title');\n  temp.innerHTML = `Bonanza's Banana Emporium`;\n  container.appendChild(temp);\n  main.appendChild(container);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createHome);\n\n//# sourceURL=webpack://restaurant-page/./src/home.js?");
 
 /***/ }),
 
@@ -46,7 +46,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _hom
   \*********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction createMenu() {\n  const main = document.querySelector('#Content');\n  const container = document.createElement('div');\n  container.classList.add('home-container', 'container');\n  let temp = document.createElement('h2');\n  temp.classList.add('h2', 'title');\n  temp.innerHTML = `Bonanza's Special Menu`;\n  container.appendChild(temp);\n  main.appendChild(container);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createMenu);\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\nfunction createMenu() {\n  const main = document.querySelector('#Content');\n  const container = document.createElement('div');\n  container.classList.add('menu-container', 'container', 'border', 'rounded', 'text-center');\n  let temp = document.createElement('h2');\n  temp.classList.add('h2', 'title');\n  temp.innerHTML = `Bonanza's Special Menu`;\n  container.appendChild(temp);\n  main.appendChild(container);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (createMenu);\n\n//# sourceURL=webpack://restaurant-page/./src/menu.js?");
 
 /***/ })
 
