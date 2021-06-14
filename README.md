@@ -31,7 +31,7 @@ Every tab cleans out the main contents of the page and replaces it with the desi
 
 1. Open Terminal.
 2. Navigate to your desired location to download the contents of this repository.
-3. Copy and paste the following code into the Terminal: git clone https://github.com/Zibilyonik/library-project/tree/books
+3. Copy and paste the following code into the Terminal: git clone https://github.com/Zibilyonik/restaurant-page/tree/restaurant
 4. ```cd restaurant-page```.
 5. Install the required node modules by running `npm install` command.
 6. After installing all the required node modules, you can run the project on your own server or just use the index.html file to preview it.
