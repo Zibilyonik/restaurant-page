@@ -15,7 +15,7 @@ Users can also click on buttons provided on the top side of the screen to switch
 Every tab cleans out the main contents of the page and replaces it with the desired tab's content.
 
 ## Screenshot of the page
-![Screenshot Profile Page](./dist/assets/screenshot_1.png)
+![Screenshot Profile Page](./dist/assets/Screenshot_1.png)
 
 
 ## Build With
