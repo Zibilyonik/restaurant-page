@@ -1,4 +1,4 @@
-function createMenu() {
+let createMenu = () => {
   const main = document.querySelector('#Content');
   const container = document.createElement('div');
   container.classList.add('menu-container', 'container', 'border', 'rounded', 'text-center');

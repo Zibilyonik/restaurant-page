@@ -1,4 +1,4 @@
-function createHome() {
+let createHome = () => {
   const main = document.querySelector('#Content');
   const container = document.createElement('div');
   container.classList.add('home-container', 'container', 'border', 'rounded', 'text-center');

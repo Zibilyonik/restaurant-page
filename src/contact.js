@@ -1,4 +1,4 @@
-function createContact() {
+let createContact = () => {
   const main = document.querySelector('#Content');
   const container = document.createElement('div');
   container.classList.add('contact-container', 'container', 'border', 'rounded', 'text-center');
