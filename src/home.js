@@ -1,4 +1,4 @@
-let createHome = () => {
+const createHome = () => {
   const main = document.querySelector('#Content');
   const container = document.createElement('div');
   container.classList.add('home-container', 'container', 'border', 'rounded', 'text-center');
@@ -13,5 +13,5 @@ let createHome = () => {
   temp.appendChild(maintext);
   container.appendChild(temp);
   main.appendChild(container);
-}
+};
 export default createHome;
